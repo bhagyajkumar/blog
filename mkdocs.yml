@@ -41,3 +41,5 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+site_url: blog.bhagyaj.in
