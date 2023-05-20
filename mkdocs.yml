@@ -1,0 +1,43 @@
+site_name: Bhagyaj
+
+plugins:
+  - blogging:
+      dirs:
+        - blog 
+  - search
+  - tags
+
+nav: 
+  - index.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+
+theme:
+  name: material
+  features:
+    - tabs
+  palette:
+    primary: green
+    accent: yellow
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+
+
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
